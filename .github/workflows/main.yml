@@ -1,0 +1,16 @@
+name: Main
+
+on:
+  push:
+
+jobs:
+
+  red_amber_green_test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build Language-Start-Point image, test it
+        run: ./run_tests.sh

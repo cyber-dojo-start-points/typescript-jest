@@ -1,6 +1,6 @@
 {
-  "display_name": "TypeScript, jest",
-  "image_name": "cyberdojofoundation/typescript_node_jest:4ddf46a",
+  "display_name": "TypeScript 25.8, jest 30.2.0",
+  "image_name": "ghcr.io/cyber-dojo-languages/typescript_node_jest:0c8621f",
   "visible_filenames": [
     "package.json",
     "jest.config.js",
@@ -10,6 +10,7 @@
     ".eslintrc.js",
     "tsconfig.json"
   ],
+  "rag_lambda": "red_amber_green.rb",
   "filename_extension": [
     ".ts"
   ],
