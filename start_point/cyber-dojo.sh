@@ -10,10 +10,11 @@ function cyber_dojo_exit()
 }
 trap cyber_dojo_exit EXIT SIGTERM
 
-npm run typecheck || exit 42
+# Calling [npm run ...] is sloooow so don't do that.
+node_modules/.bin/tsc --noEmit || exit 42
 
 #Uncomment this line to enable linting.
 #Note: this will slow down the test.
-#npm run lint
+#node_modules/.bin/eslint --fix **/*.ts
 
-npm run test
+node_modules/.bin/jest --maxWorkers=2
