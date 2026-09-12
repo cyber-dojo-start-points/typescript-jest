@@ -1,6 +1,6 @@
 {
   "scripts": {
-      "test": "jest --maxWorkers=2",
+      "test": "jest --runInBand",
       "lint": "eslint --fix **/*.ts",
       "typecheck": "tsc --noEmit"
   }

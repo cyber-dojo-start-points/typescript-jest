@@ -1,5 +1,5 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/typescript_node_jest:5a7aba5",
+  "image_name": "ghcr.io/cyber-dojo-languages/typescript_node_jest:45b89f9",
   "display_name": "TypeScript 6.0, jest 30.5",
   "language": [
     "TypeScript",

@@ -17,4 +17,7 @@ node_modules/.bin/tsc --noEmit || exit 42
 #Note: this will slow down the test.
 #node_modules/.bin/eslint --fix **/*.ts
 
-node_modules/.bin/jest --maxWorkers=2
+# Run the test files here, in this process, rather than in workers jest starts
+# for them. Starting a worker costs more than a kata's test files take to run,
+# and one process prints one summary covering every file.
+node_modules/.bin/jest --runInBand
