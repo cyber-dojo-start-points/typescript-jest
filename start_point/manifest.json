@@ -1,13 +1,13 @@
 {
-  "image_name": "ghcr.io/cyber-dojo-languages/typescript_node_jest:0c8621f",
-  "display_name": "TypeScript 25.8, jest 30.2.0",
+  "image_name": "ghcr.io/cyber-dojo-languages/typescript_node_jest:5a7aba5",
+  "display_name": "TypeScript 6.0, jest 30.5",
   "language": [
     "TypeScript",
-    "25.8"
+    "6.0"
   ],
   "test_framework": [
     "jest",
-    "30.2.0"
+    "30.5"
   ],
   "visible_filenames": [
     "package.json",

@@ -1,6 +1,6 @@
 [![GitHub CI](../../actions/workflows/main.yml/badge.svg)](../../actions/workflows/main.yml)
 
-### display_name="TypeScript 25.8, jest 30.2.0"
+### display_name="TypeScript 6.0, jest 30.5"
 ### image_name=[ghcr.io/cyber-dojo-languages/javascript_node_jest](https://ghcr.io/cyber-dojo-languages/typescript_node_jest)
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)

@@ -8,6 +8,12 @@
     // here and then fail when it ran. Node's own globals, console and
     // setTimeout among them, come from @types/node and are unaffected.
     "target": "es2022",
-    "lib": ["es2022"]
+    "lib": ["es2022"],
+    // Naming them is what makes them found. tsc otherwise goes looking for a
+    // node_modules/@types beside this file, and the node_modules beside this
+    // file is a symlink to where the packages really live, which it does not
+    // follow. Unnamed, describe and it and expect are all undefined and the
+    // type-check fails before a single test runs.
+    "types": ["jest", "node"]
   }
 }
