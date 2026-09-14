@@ -1,0 +1,11 @@
+{
+  "max_output_lines": 30,
+  "match_counts": {
+    "^PASS \\./hiker\\.test\\.ts$": 1,
+    "^Test Suites: 1 passed, 1 total$": 1,
+    "^Tests: +2 passed, 2 total$": 1,
+    "has a two character checksum": 1,
+    "^FAIL": 0,
+    "error TS": 0
+  }
+}

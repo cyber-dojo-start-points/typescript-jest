@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^answer_size\\.test\\.ts\\([0-9]+,[0-9]+\\): error TS1005: '\\)' expected\\.$": 1,
+    "^hiker": 0,
+    "^PASS": 0,
+    "^FAIL": 0,
+    "^Ran all test suites\\.$": 0
+  }
+}

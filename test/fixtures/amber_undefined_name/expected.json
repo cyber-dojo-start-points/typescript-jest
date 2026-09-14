@@ -1,0 +1,8 @@
+{
+  "match_counts": {
+    "^hiker\\.test\\.ts\\([0-9]+,[0-9]+\\): error TS2552: Cannot find name 'ansewr'\\. Did you mean 'answer'\\?$": 1,
+    "^PASS": 0,
+    "^FAIL": 0,
+    "^Ran all test suites\\.$": 0
+  }
+}

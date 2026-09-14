@@ -1,0 +1,11 @@
+{
+  "match_counts": {
+    "^PASS \\./hiker\\.test\\.ts$": 1,
+    "^FAIL \\./answer_size\\.test\\.ts$": 1,
+    "^Test Suites: 1 failed, 1 passed, 2 total$": 1,
+    "^Tests: +1 failed, 1 passed, 2 total$": 1,
+    "^ +Expected: 3$": 1,
+    "^ +Received: 2$": 1,
+    "error TS": 0
+  }
+}

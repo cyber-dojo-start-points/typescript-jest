@@ -1,0 +1,11 @@
+{
+  "match_counts": {
+    "^No tests found, exiting with code 1$": 1,
+    "^ +5 files checked\\.$": 1,
+    "^ +testMatch: +- 0 matches$": 1,
+    "^Pattern: +- 0 matches$": 1,
+    "^PASS": 0,
+    "^FAIL": 0,
+    "error TS": 0
+  }
+}

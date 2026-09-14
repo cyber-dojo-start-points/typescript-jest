@@ -1,0 +1,9 @@
+{
+  "match_counts": {
+    "^checksum\\.ts\\([0-9]+,[0-9]+\\): error TS1109: Expression expected\\.$": 2,
+    "^hiker": 0,
+    "^PASS": 0,
+    "^FAIL": 0,
+    "^Ran all test suites\\.$": 0
+  }
+}
